@@ -1,0 +1,35 @@
+# index: song reference number
+
+# name: file name
+
+# features in extracted_feature_values:
+    detailed explanations in http://jmir.sourceforge.net/manuals/jSymbolic_manual/home.html
+
+# year: published year
+    file_info.csv: raw data
+    extracted_feature_values:
+        'n/a': missing data
+        'early': <1920
+        'late': >= 1920
+
+# composer:
+    file_info.csv: raw data
+    extracted_feature_values:
+        'famous': among ['Lamb, Joseph F.', 'Joplin, Scott', 'Scott, James']
+        'others': other composers
+
+# type: somewhat ambiguous
+    file_info.csv: raw data
+    extracted_feature_values: raw data
+    B =	Blues
+    F =	Fox Trot
+    I =	Intermezzo or Two Step
+    M =	March
+    N =	Novelty
+    O = Opera or  classical
+    P =	Polkas or Parlor Piano pieces
+    R =	Ragtime composed before about 1945
+    S =	Ragtime Style Song
+    W =	Waltz
+    Y =	Contemporary Ragtime
+    n = missing data
